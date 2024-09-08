@@ -1,4 +1,4 @@
-const scriptURL = 'AKfycbxptW7o5lVFYruhuS4bB-sXPMZmDGMaBtsmrBkKz7CY';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxptW7o5lVFYruhuS4bB-sXPMZmDGMaBtsmrBkKz7CY/exec';
 
 document.getElementById('confession-form').addEventListener('submit', function (e) {
     e.preventDefault();
