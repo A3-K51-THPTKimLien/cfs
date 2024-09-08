@@ -1,19 +1,5 @@
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxptW7o5lVFYruhuS4bB-sXPMZmDGMaBtsmrBkKz7CY/exec';
 
-function doGet(e) {
-  var response = ContentService.createTextOutput(JSON.stringify({ message: 'Hello World' }));
-  response.setMimeType(ContentService.MimeType.JSON);
-  
-  // Set CORS headers
-  response.setHeaders({
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type'
-  });
-  
-  return response;
-}
-
 document.getElementById('confession-form').addEventListener('submit', function (e) {
     e.preventDefault();
     const confession = document.getElementById('confession').value;
