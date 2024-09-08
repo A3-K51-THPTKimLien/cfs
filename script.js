@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxptW7o5lVFYruhuS4bB-sXPMZmDGMaBtsmrBkKz7CY/exec';
+const scriptURL = 'https://a3-k51-thptkimlien.github.io/confession-website/code.gs';
 
 document.getElementById('confession-form').addEventListener('submit', function (e) {
     e.preventDefault();
