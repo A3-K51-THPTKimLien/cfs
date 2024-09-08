@@ -1,4 +1,4 @@
-const scriptURL = 'YOUR_GOOGLE_SCRIPT_DEPLOYMENT_URL';
+const scriptURL = 'AKfycbxptW7o5lVFYruhuS4bB-sXPMZmDGMaBtsmrBkKz7CY';
 
 document.getElementById('confession-form').addEventListener('submit', function (e) {
     e.preventDefault();
