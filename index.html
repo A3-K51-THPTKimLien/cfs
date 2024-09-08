@@ -2,17 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confession Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>A3's Confession Website</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <h1>Confession Board</h1>
-    <form id="confession-form">
-        <textarea id="confession-text" placeholder="Type your confession here..." required></textarea>
-        <button type="submit">Submit</button>
-    </form>
-    <div id="confession-board"></div>
-    <script src="script.js"></script>
+    <div class="container">
+        <h1>Anonymous Confessions</h1>
+        <form id="confession-form">
+            <textarea id="confession" placeholder="Write your confession here..." required></textarea>
+            <button type="submit">Submit Confession</button>
+        </form>
+        <div id="confessions-list">
+            <!-- Confessions will be loaded here -->
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
 </body>
 </html>
