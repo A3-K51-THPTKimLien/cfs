@@ -1,13 +1,12 @@
 const repoOwner = 'a3-k51-thptkimlien';
 const repoName = 'confession-website';
-const token = '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'; // Secure this token in production!
+const token = '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'; 
 
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('confession-form');
     const confessionInput = document.getElementById('confession');
     const confessionList = document.getElementById('confession-list');
 
-    // Fetch existing confessions
     fetchConfessions();
 
     form.addEventListener('submit', function (event) {
@@ -54,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .then(response => response.json())
         .then(() => {
-            fetchConfessions(); // Refresh the list
+            fetchConfessions(); 
         });
     }
 });
